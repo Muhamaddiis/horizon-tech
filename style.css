@@ -111,11 +111,9 @@ nav ul li a:hover{
    
 }
 #aboutus {
-    /* position: relative;
-    width: 200px;
-    right: 120px;
-    
-    top: 50px; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
     color: #ffff;
 
     transform: rotate(-90deg);
@@ -224,6 +222,7 @@ nav ul li a:hover{
     /* padding: 4rem; */
     display:flex;
     padding-left: 5rem;
+    position: relative;
     
 }
 .card1 {
