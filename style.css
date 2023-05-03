@@ -7,9 +7,18 @@
 body {
     background: #000033;
 }
-.container {
+.logo {
+    font-size: x-large;
+    margin: 5px 3px
+}
+.first_container {
+
+    position: relative;
+}
+.container{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    position: relative;
 }
 header {
     margin-top: 25px;
@@ -52,6 +61,9 @@ nav ul li a:hover{
     transition: ease-out 0.5s;
 }
 .description {
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +71,7 @@ nav ul li a:hover{
     color: #ffff;
 }
 .header2 h2 {
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
     padding: 10px;
     letter-spacing: 0.3rem;
     line-height: 1.8;
@@ -84,23 +96,36 @@ nav ul li a:hover{
     margin-top: 1rem;
     cursor: pointer;
 }
-.box {
+.aboutus-description{
     background: #001E45;
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    padding:3rem;
     height: inherit;
+    flex-grow: 2;
     background-image: url(images/Vector.png);
 }
+.box {
+    /* background: #001E45; */
+    /* margin-left: 150px; */
+    height: inherit;
+   
+}
 #aboutus {
-    position: relative;
+    /* position: relative;
     width: 200px;
     right: 120px;
-    top: 50px;
+    
+    top: 50px; */
     color: #ffff;
+
     transform: rotate(-90deg);
-    font-size: 20px;
-    letter-spacing: 0.2rem;
+    transform-origin: 0 0;
+    
+    display: inline-block;
+    /* font-size: 20px; */
+    /* letter-spacing: 0.2rem; */
 }
-#aboutus::after{
+/* #aboutus::after{
     content: "";
     width: 70px;
     height: 2px;
@@ -108,7 +133,7 @@ nav ul li a:hover{
     position: absolute;
     left: 60%;
     top: 50%;
-}
+} */
 
 .p1 {
 
@@ -195,12 +220,11 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-around;
 }
-@media only screen and (max-width: 600px){
-    .cards {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+.about-us{
+    /* padding: 4rem; */
+    display:flex;
+    padding-left: 5rem;
+    
 }
 .card1 {
     background: #00377E;
@@ -339,4 +363,34 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     line-height: 10px;
+}
+@media only screen and (max-width: 600px){
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .nav-list {
+        display: none;
+    }
+    .logo {
+        font-size: xx-large;
+        text-align: center;
+    }
+    .paragraph-text{
+        text-align: left !important;
+    }
+    .description {
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .container-box{
+        background: #001E45;
+        background-image: url(images/Vector.png);
+      
+
+    }
+    .box {
+        background: none;
+    }
 }
