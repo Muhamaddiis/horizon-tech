@@ -237,7 +237,7 @@ nav ul li a:hover{
 }
 #whychooseus::before {
     content: '';
-    width: 40px;
+    width: 60px;
     height: 2px;
     background: #fff;
     position: absolute;
