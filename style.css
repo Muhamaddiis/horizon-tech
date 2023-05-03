@@ -151,7 +151,7 @@ nav ul li a:hover{
     font-weight: 20;
     position: relative;
 }
-.ourservices h4::before {
+h4::after {
     display: block;
     width: 60px;
     height: 1px;
@@ -267,7 +267,7 @@ nav ul li a:hover{
     width: 700px;
     position: absolute;
     left: 500px;
-    top: 2585px;
+    top: 2785px;
     z-index: -1;
 }
 
