@@ -90,7 +90,7 @@ nav ul li a:hover{
     height: inherit;
     background-image: url(images/Vector.png);
 }
-.about-us h4{
+#aboutus {
     position: relative;
     width: 200px;
     right: 120px;
@@ -100,12 +100,13 @@ nav ul li a:hover{
     font-size: 20px;
     letter-spacing: 0.2rem;
 }
-.about-us h4::before{
+#aboutus::after{
     content: "";
-    width: 60px;
+    width: 70px;
+    height: 2px;
     background: #fff;
     position: absolute;
-    left: 50%;
+    left: 60%;
     top: 50%;
 }
 
@@ -143,23 +144,25 @@ nav ul li a:hover{
 .ourservices {
     padding: 50px;
 }
-.ourservices h4 {
+#ourservices {
     color: #ffff;
     font-family: 'Montserrat';
     letter-spacing: 0.3rem;
     font-size: 20px;
     font-weight: 20;
     position: relative;
+    margin-left: 40px;
 }
-h4::after {
-    display: block;
-    width: 60px;
-    height: 1px;
-    background-color: #ffff;
+#ourservices::before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background: #fff;
     position: absolute;
-    left: 0;
+    left: -4%;
     top: 50%;
 }
+
 .ourservices img {
     overflow: hidden;
     z-index: -1;
@@ -221,18 +224,27 @@ h4::after {
     padding-top: 2rem;
     border-bottom: 2px solid #ffff;   
 }
-.why-choose-us h4 {
-    border-top: 3px solid #ffff;
+#whychooseus {
     width: 200px;
     height: 107px;
     color: #ffff;
     position: absolute;
     left: 50px;
-    top: 1850px;
+    top: 2050px;
     transform: rotate(-90deg);
     font-size: 20px;
     letter-spacing: 0.2rem;
 }
+#whychooseus::before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 90%;
+    top: 10%;
+}
+
 .why-choose-us h3 {
     color: #ffff;
     padding: 20px 30px;
