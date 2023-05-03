@@ -38,4 +38,3 @@ Can be reached by the email below for questions and comments
 
 [Email](khalitiman17@gmail.com)
 
-## License
