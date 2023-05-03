@@ -1,7 +1,7 @@
 # HORIZON TECH
 
 #### By Muhamad Diis
-##### [Site] (https://muhamaddiis.github.io/Horizon-tech/)
+##### [Site] (https://muhamaddiis.github.io/horizon-tech/)
 
 
 ## Table of Content
@@ -39,5 +39,3 @@ Can be reached by the email below for questions and comments
 [Email](khalitiman17@gmail.com)
 
 ## License
-
-Find the license info [here] (https://github.com/Muhamaddiis/Blog/blob/main/LICENCE)
